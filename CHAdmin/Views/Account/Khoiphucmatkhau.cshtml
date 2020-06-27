@@ -1,0 +1,94 @@
+﻿
+@{
+    Layout = null;
+    string email = ViewData["email"] as string;
+    string maphuchoi = ViewData["maphuchoi"] as string;
+    string thongbao = ViewData["thongbao"] as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Khóa Học Lập Trình Laravel Framework 5.x Tại Khoa Phạm">
+    <meta name="author" content="">
+    <title>Khôi phục tài khoản</title>
+    <link rel="shortcut icon" type="image/ico" href="~/Assets/bower_components/icon/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="~/Assets/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="~/Assets/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="~/Assets/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Khôi phục tài khoản</h3>
+                    </div>
+                    <div class="panel-body">
+                        @if (thongbao != null && thongbao.Equals("ok"))
+                        {
+                            <div class="alert alert-success">Khôi phục mật khẩu thành công</div>
+                        }
+                        else if (thongbao != null && thongbao.Equals("error"))
+                        {
+                            <div class="alert alert-danger">Mật khẩu nhập không khớp</div>
+                        }
+                        else if (thongbao != null && thongbao.Equals("error_code"))
+                        {
+                            <div class="alert alert-danger">Mã khôi phục đã được sử dụng</div>
+                        }
+                        <form action="/Account/Khoiphucmatkhau" method="POST">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" value="@maphuchoi" name="code" type="hidden">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" value="@email" placeholder="E-mail" name="email_user" type="email" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Mật khẩu" name="password" type="password" autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Nhập lại mật khẩu" name="re_password" type="password">
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-success btn-block">Khôi phục mật khẩu</button>
+                                <a class="btn btn-lg btn-success btn-block" href="/Account/Login">Trở về trang đăng nhập</a>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/Assets/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="~/Assets/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="~/Assets/dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
+

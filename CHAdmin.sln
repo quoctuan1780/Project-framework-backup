@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHAdmin", "CHAdmin\CHAdmin.csproj", "{1A25574D-C516-4776-A241-96E5F8A8FCFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{FF457540-41B9-47B0-B30C-6F76891D1379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A25574D-C516-4776-A241-96E5F8A8FCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A25574D-C516-4776-A241-96E5F8A8FCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A25574D-C516-4776-A241-96E5F8A8FCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A25574D-C516-4776-A241-96E5F8A8FCFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF457540-41B9-47B0-B30C-6F76891D1379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF457540-41B9-47B0-B30C-6F76891D1379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF457540-41B9-47B0-B30C-6F76891D1379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF457540-41B9-47B0-B30C-6F76891D1379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C23799EA-0050-4C06-A6DB-ECC69C16AF0E}
+	EndGlobalSection
+EndGlobal

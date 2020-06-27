@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Doimatkhau";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Model.EF.user user = Session[CHAdmin.Common.Constants.USER_SESSION] as Model.EF.user;
+    string thongbao = "";
+    try
+    {
+        thongbao = ViewData["thongbao"] as string;
+    }catch(Exception e)
+    {
+
+    }
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Đổi mật khẩu</h1>
+            </div>
+            <!-- /.col-lg-12 -->
+            <div class="col-lg-7">
+                <div style="box-shadow: 0px 0px 3px 0px rgba(88, 88, 88, 0.3);">
+                    <div class="panel-body">
+                        @if (thongbao != null && thongbao.Equals("error_matkhau_new"))
+                        {
+                            <div class="alert alert-danger">Mật khẩu không khớp</div>
+                        }
+                        else if (thongbao != null && thongbao.Equals("ok"))
+                        {
+                            <div class="alert alert-success">Đổi mật khẩu thành công</div>
+                        }
+                        else if(thongbao != null && thongbao.Equals("error_matkhaucu"))
+                        {
+                            <div class="alert alert-danger">Mật khẩu cũ không đúng</div>
+                        }
+                        <form role="form" action="#" method="POST">
+                            <fieldset>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input class="form-control" value="@user.email" name="Email" type="email" disabled>
+                                </div>
+                                <div class="form-group">
+                                    <label>Mật khẩu cũ</label>
+                                    <input class="form-control" placeholder="Nhập mật khẩu cũ" name="Matkhaucu" type="password" autofocus required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Mật khẩu mới</label>
+                                    <input class="form-control" placeholder="Nhập mật khẩu mới" name="Maukhaumoi" type="password" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Xác nhận mật khẩu</label>
+                                    <input class="form-control" placeholder="Nhập lại mật khẩu" name="Nhaplaimatkhau" type="password" required>
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-success btn-block">Đổi mật khẩu</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</div>

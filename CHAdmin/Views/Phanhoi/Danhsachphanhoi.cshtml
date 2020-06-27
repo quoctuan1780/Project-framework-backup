@@ -1,0 +1,143 @@
+﻿
+@{
+    ViewBag.Title = "Danhsachphanhoi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    IQueryable<Model.EF.phanhoi> phanhoi = ViewData["danhsachphanhoi"] as IQueryable<Model.EF.phanhoi>;
+    int row = -1;
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Thông tin phản hồi</h1>
+            </div>
+            <!-- /.col-lg-12 -->
+            <div>
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                    <thead>
+                        <tr align="center">
+                            <th>Vấn đề</th>
+                            <th>Email</th>
+                            <th>Khách hàng</th>
+                            <th>Ngày phản hồi</th>
+                            <th>Xóa</th>
+                            <th>Phản hồi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var ph in phanhoi)
+                        {
+                            <tr class="odd gradeX" style="text-align: center">
+                                <div hidden>@row++</div>
+                                <td><a href="javascript:void(0)" onclick="showContent(@ph.maph)">@ph.vande</a></td>
+                                <td>@ph.email</td>
+                                <td>@ph.hoten</td>
+                                <td>@ph.ngayph</td>
+                                <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="javascript:void(0)" onclick="ConfirmDelete(@ph.maph)">Xóa</a></td>
+                                <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="/Phanhoi/Phanhoikhachhang?email=@ph.email">Phản hồi</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div id="Hienthi"></div>
+    </div>
+    <!-- /.container-fluid -->
+</div>
+
+
+@section Scripts{
+    <script>
+            function ConfirmDelete(maph, row)
+            {
+                var x;
+                Swal.fire({
+                title: 'Thông báo',
+                text: "Bạn có chắc chắn muốn xóa ?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Đồng ý'
+                }).then((result) => {
+                if (result.value) {
+                        let timerInterval
+                        Swal.fire({
+                        title: 'Xin chờ',
+                        html: 'Xóa trong <b></b> milliseconds.',
+                        timer: 2000,
+                        timerProgressBar: true,
+                        onBeforeOpen: () => {
+                            Swal.showLoading()
+                            timerInterval = setInterval(() => {
+                            Swal.getContent().querySelector('b')
+                                .textContent = Swal.getTimerLeft()
+                            }, 100)
+                        },
+                            onClose: () => {
+
+                                clearInterval(timerInterval)
+                            }
+                            }).then((result) => {
+                            if (result.dismiss === Swal.DismissReason.timer) {
+                                $.ajax({
+                                    url: '/Phanhoi/Xoaphanhoi/' + maph,
+                                    method: "GET",
+                                    data: { maph: maph },
+                                    success: function (data) {
+                                        if (data != 0) {
+                                            Swal.fire(
+                                                'Thông báo',
+                                                'Xác nhận xóa phản hồi thành công',
+                                                'success'
+                                            );
+                                            document.getElementById('dataTables-example').deleteRow(row)
+                                        } else {
+                                            Swal.fire(
+                                                'Thông báo',
+                                                'Xác nhận xóa phản hồi không thành công',
+                                                'error'
+                                            );
+                                        }
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+            function showContent(maph){
+                $.ajax({
+                        url: '/Ajax/getNoidungphanhoi/' + maph, 
+                        method:"GET",
+                        data:{maph:maph},
+                        success: function (data) {
+                            var html = '';
+                            $.each(JSON.parse(data), function (i, ph) {
+                                html += '<div class="row" ><div><div class="well form-horizontal"><h2>Thông tin khách hàng</h2>' +
+                                    '<hr><div class="form-group"><label class="col-md-3 control-label">Vấn đề</label>' +
+                                    '<div class="col-md-8">' +
+                                    '<input type="text" name="Title" class="form-control" value="' + ph.vande + '">' +
+                                    '</div></div><div class="form-group"><label class="col-md-3 control-label">Ngày phản hồi</label>' +
+                                    '<div class="col-md-8">' +
+                                    '<input type="text" class="form-control" name="CreatedDate" value="' + ph.ngayph + '"></div></div>' +
+                                    '<div class="form-group"><label class="col-md-3 control-label">Tên khách hàng</label><div class="col-md-8">' +
+                                    '<input type="text" class="form-control" name="Name" value="' + ph.hoten + '"></div></div>' +
+                                    '<div class="form-group"><label class="col-md-3 control-label">Email</label><div class="col-md-8">' +
+                                    '<input type="text" class="form-control" name="Email" value="' + ph.email + '"></div></div>' +
+                                    '<div class="form-group"><label class="col-md-3 control-label">Địa chỉ</label><div class="col-md-8">' +
+                                    '<input type="text" class="form-control" name="Address" value="' + ph.diachi + '"></div></div>' +
+                                    '<h2>Nội dung phản hồi</h2><hr><div class="form-group">' +
+                                    '<label class="col-md-3 control-label">Nội dung</label><br>' + ph.noidung + '</div></div></div></div>';
+                            });
+                            $("#Hienthi").fadeOut();
+                            $("#Hienthi").fadeIn();
+                            $("#Hienthi").html(html);
+                        }
+                    });
+            }
+    </script>
+}

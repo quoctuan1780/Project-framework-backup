@@ -1,0 +1,395 @@
+D:\DATA\CHAdmin\CHAdmin\bin\CHAdmin.dll.config
+D:\DATA\CHAdmin\CHAdmin\bin\CHAdmin.dll
+D:\DATA\CHAdmin\CHAdmin\bin\CHAdmin.pdb
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\csc.exe
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\csc.exe.config
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\csc.rsp
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\csi.exe
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\csi.exe.config
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\csi.rsp
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.AppContext.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Console.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.IO.Compression.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Net.Http.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.ValueTuple.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\vbc.exe
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\vbc.exe.config
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\vbc.rsp
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\VBCSCompiler.exe
+D:\DATA\CHAdmin\CHAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\DATA\CHAdmin\CHAdmin\bin\Antlr3.Runtime.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Newtonsoft.Json.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Helpers.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Mvc.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Optimization.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Razor.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.WebPages.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.WebPages.Razor.dll
+D:\DATA\CHAdmin\CHAdmin\bin\WebGrease.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Helpers.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Mvc.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Optimization.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.Razor.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.WebPages.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Web.WebPages.Razor.xml
+D:\DATA\CHAdmin\CHAdmin\bin\Newtonsoft.Json.xml
+D:\DATA\CHAdmin\CHAdmin\bin\Antlr3.Runtime.pdb
+D:\DATA\CHAdmin\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DATA\CHAdmin\CHAdmin\obj\Debug\CHAdmin.csprojAssemblyReference.cache
+D:\DATA\CHAdmin\CHAdmin\obj\Debug\CHAdmin.csproj.CoreCompileInputs.cache
+D:\DATA\CHAdmin\CHAdmin\obj\Debug\CHAdmin.csproj.CopyComplete
+D:\DATA\CHAdmin\CHAdmin\obj\Debug\CHAdmin.dll
+D:\DATA\CHAdmin\CHAdmin\obj\Debug\CHAdmin.pdb
+D:\DATA\CHAdmin\CHAdmin\bin\Model.dll
+D:\DATA\CHAdmin\CHAdmin\bin\EntityFramework.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Model.pdb
+D:\DATA\CHAdmin\CHAdmin\bin\Model.dll.config
+D:\DATA\CHAdmin\CHAdmin\bin\EntityFramework.xml
+D:\DATA\CHAdmin\CHAdmin\bin\BouncyCastle.Crypto.dll
+D:\DATA\CHAdmin\CHAdmin\bin\EntityFramework.SqlServer.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Google.Protobuf.dll
+D:\DATA\CHAdmin\CHAdmin\bin\K4os.Compression.LZ4.dll
+D:\DATA\CHAdmin\CHAdmin\bin\K4os.Compression.LZ4.Streams.dll
+D:\DATA\CHAdmin\CHAdmin\bin\K4os.Hash.xxHash.dll
+D:\DATA\CHAdmin\CHAdmin\bin\MySql.Data.dll
+D:\DATA\CHAdmin\CHAdmin\bin\MySql.Data.EntityFramework.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Renci.SshNet.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Buffers.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Memory.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Numerics.Vectors.dll
+D:\DATA\CHAdmin\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Ubiety.Dns.Core.dll
+D:\DATA\CHAdmin\CHAdmin\bin\Zstandard.Net.dll
+D:\DATA\CHAdmin\CHAdmin\bin\EntityFramework.SqlServer.xml
+D:\DATA\CHAdmin\CHAdmin\bin\Google.Protobuf.xml
+D:\DATA\CHAdmin\CHAdmin\bin\K4os.Compression.LZ4.xml
+D:\DATA\CHAdmin\CHAdmin\bin\K4os.Compression.LZ4.Streams.xml
+D:\DATA\CHAdmin\CHAdmin\bin\K4os.Hash.xxHash.xml
+D:\DATA\CHAdmin\CHAdmin\bin\MySql.Data.xml
+D:\DATA\CHAdmin\CHAdmin\bin\MySql.Data.EntityFramework.xml
+D:\DATA\CHAdmin\CHAdmin\bin\Renci.SshNet.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Buffers.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Memory.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Numerics.Vectors.xml
+D:\DATA\CHAdmin\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\CHAdmin.dll.config
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\CHAdmin.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\CHAdmin.pdb
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\csc.exe
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\csc.exe.config
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\csc.rsp
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\csi.exe
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\csi.exe.config
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\csi.rsp
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.AppContext.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Console.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.Compression.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Net.Http.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.ValueTuple.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\vbc.exe
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\vbc.exe.config
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\vbc.rsp
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\VBCSCompiler.exe
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Antlr3.Runtime.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\BouncyCastle.Crypto.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\EntityFramework.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\EntityFramework.SqlServer.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Google.Protobuf.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.Streams.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\K4os.Hash.xxHash.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Model.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\MySql.Data.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\MySql.Data.EntityFramework.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Newtonsoft.Json.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Renci.SshNet.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Buffers.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Memory.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Numerics.Vectors.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Helpers.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Mvc.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Optimization.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Razor.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Razor.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Ubiety.Dns.Core.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\WebGrease.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Zstandard.Net.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Model.pdb
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Model.dll.config
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\EntityFramework.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\EntityFramework.SqlServer.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Google.Protobuf.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.Streams.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\K4os.Hash.xxHash.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\MySql.Data.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\MySql.Data.EntityFramework.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Renci.SshNet.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Buffers.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Memory.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Numerics.Vectors.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Helpers.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Mvc.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Optimization.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.Razor.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Razor.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Newtonsoft.Json.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Antlr3.Runtime.pdb
+D:\Coffee House\FrameworkCFHouse\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Coffee House\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.csprojAssemblyReference.cache
+D:\Coffee House\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.csproj.CoreCompileInputs.cache
+D:\Coffee House\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.csproj.CopyComplete
+D:\Coffee House\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.dll
+D:\Coffee House\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.pdb
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\CHAdmin.dll.config
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\CHAdmin.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\CHAdmin.pdb
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\csc.exe
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\csc.exe.config
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\csc.rsp
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\csi.exe
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\csi.exe.config
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\csi.rsp
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.AppContext.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Console.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.Compression.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Net.Http.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.ValueTuple.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\vbc.exe
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\vbc.exe.config
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\vbc.rsp
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\VBCSCompiler.exe
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Antlr3.Runtime.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\BouncyCastle.Crypto.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\EntityFramework.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\EntityFramework.SqlServer.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Google.Protobuf.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.Streams.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\K4os.Hash.xxHash.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Model.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\MySql.Data.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\MySql.Data.EntityFramework.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Newtonsoft.Json.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Renci.SshNet.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Buffers.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Memory.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Numerics.Vectors.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Helpers.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Mvc.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Optimization.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Razor.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Razor.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Ubiety.Dns.Core.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\WebGrease.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Zstandard.Net.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Model.pdb
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Model.dll.config
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\EntityFramework.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\EntityFramework.SqlServer.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Google.Protobuf.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\K4os.Compression.LZ4.Streams.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\K4os.Hash.xxHash.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\MySql.Data.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\MySql.Data.EntityFramework.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Renci.SshNet.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Buffers.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Memory.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Numerics.Vectors.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Helpers.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Mvc.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Optimization.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.Razor.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\System.Web.WebPages.Razor.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Newtonsoft.Json.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Antlr3.Runtime.pdb
+D:\Yuuta\FrameworkCFHouse\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Yuuta\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.csprojAssemblyReference.cache
+D:\Yuuta\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.csproj.CoreCompileInputs.cache
+D:\Yuuta\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.csproj.CopyComplete
+D:\Yuuta\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.dll
+D:\Yuuta\FrameworkCFHouse\CHAdmin\obj\Debug\CHAdmin.pdb
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\CHAdmin.dll.config
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\CHAdmin.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\CHAdmin.pdb
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Antlr3.Runtime.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\BouncyCastle.Crypto.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\EntityFramework.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\EntityFramework.SqlServer.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Google.Protobuf.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\K4os.Compression.LZ4.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\K4os.Hash.xxHash.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Model.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\MySql.Data.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\MySql.Data.EntityFramework.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Newtonsoft.Json.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Renci.SshNet.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Buffers.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Memory.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Numerics.Vectors.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Helpers.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Mvc.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Optimization.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Razor.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.WebPages.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Ubiety.Dns.Core.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\WebGrease.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Zstandard.Net.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Model.pdb
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Model.dll.config
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\EntityFramework.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\EntityFramework.SqlServer.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Google.Protobuf.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\K4os.Compression.LZ4.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\K4os.Hash.xxHash.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\MySql.Data.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\MySql.Data.EntityFramework.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Renci.SshNet.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Buffers.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Memory.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Numerics.Vectors.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Helpers.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Mvc.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Optimization.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.Razor.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.WebPages.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Newtonsoft.Json.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Antlr3.Runtime.pdb
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\obj\Debug\CHAdmin.csprojAssemblyReference.cache
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\obj\Debug\CHAdmin.csproj.CoreCompileInputs.cache
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\obj\Debug\CHAdmin.csproj.CopyComplete
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\obj\Debug\CHAdmin.dll
+C:\Users\Quoc Tuan\Desktop\Framework\Framework\CHAdmin\obj\Debug\CHAdmin.pdb

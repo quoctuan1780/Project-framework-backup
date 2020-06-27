@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Thongtintaikhoan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Model.EF.user thongtin = Session[CHAdmin.Common.Constants.USER_SESSION] as Model.EF.user;
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Thông tin tài khoản</h1>
+            </div>
+            <div class="widget-body no-padding" style="border: 1px">
+                <div class="padding-10">
+                    <br>
+                    <div class="pull-left">
+                        <div class="row" style="padding-left: 48px;">
+                            <div class="row" style="align-content: center; box-shadow: 0px 0px 3px 0px rgba(88, 88, 88, 0.3); padding: 5px 10px; text-shadow: darkgrey">
+                                <img src="/Assets/AdminImage/@thongtin.hinhanh" class="img-circle" alt="Cinque Terre" width="200px" height="220px">
+                                <div style="text-align: center; padding-right: 10px">Ảnh đại diện</div><br>
+                                <div>Tên tài khoản: @thongtin.tentk</div><br>
+                                <div>Email: @thongtin.email</div><br>
+                                @if (thongtin.maquyen == 1)
+                                {
+                                    <div>Quyền: Quản trị viên</div><br>
+                                }
+                                else if (thongtin.maquyen == 3)
+                                {
+                                    <div>Quyền: Thành viên</div><br>
+                                }
+                                <div class="col-lg-12" style="display: inline-flex">
+                                    <div class="col-lg-0">
+                                        <a href="/Account/Doimatkhau">Đổi mật khẩu</a>
+                                    </div>
+                                    <div class="col-lg-0" style="padding: 0px 0px 0px 10px">
+                                        <a href="/Account/Logout">Đăng xuất</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</div>

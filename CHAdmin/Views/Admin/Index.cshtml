@@ -1,0 +1,183 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var donhangmoi = ViewData["donhangmoi"];
+    var dkntmoi = ViewData["dkntmoi"];
+    var phanhoimoi = ViewData["slphanhoimoi"];
+}
+
+<div id="page-wrapper">
+
+    <div class="container-fluid">
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Dashboard</h1>
+                <ol class="breadcrumb">
+                    <li class="active">
+                        <i class="fa fa-dashboard"></i> Dashboard
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-comments fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div class="huge">@phanhoimoi</div>
+                                <div>Phản hồi mới</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/Admin/Phanhoimoi">
+                        <div class="panel-footer">
+                            <span class="pull-left">Xem chi tiết</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-green">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-tasks fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div class="huge">@dkntmoi</div>
+                                <div>Đăng kí nhận tin mới</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/Khachhang/Dangkinhantinmoi">
+                        <div class="panel-footer">
+                            <span class="pull-left">Xem chi tiết</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-yellow">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-shopping-cart fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div class="huge">@donhangmoi</div>
+                                <div>Đơn hàng mới!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/Admin/donhangmoi">
+                        <div class="panel-footer">
+                            <span class="pull-left">Xem chi tiết</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-red">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-support fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div class="huge">13</div>
+                                <div>Support Tickets!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)">
+                        <div class="panel-footer">
+                            <span class="pull-left">View Details</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="panel panel-default" style="width: 1180px;">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Doanh thu theo sản phẩm</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div id="barChart" style="height: 380px; width: 100%;"></div>
+                        <div class="text-right">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container-fluid -->
+
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            var _token = "";
+            $.ajax({
+                url: "/Ajax/getSanpham",
+                method: "GET",
+                data: { _token: _token },
+                success: function (data) {
+                    chitiet = data;
+                    var barChart = new CanvasJS.Chart("barChart", {
+                        animationEnabled: true,
+
+                        title: {
+                            text: "Doanh thu theo sản phẩm",
+                            fontColor: 'black',
+                            fontFamily: 'time new roman',
+                            fontStyle: 'bold',
+                            fontSize: 26
+                        },
+                        axisX: {
+                            interval: 1
+                        },
+                        axisY2: {
+                            interlacedColor: "rgba(1,77,101,.2)",
+                            gridColor: "rgba(1,77,101,.1)",
+                            title: "Đơn vị tính: VNĐ"
+                        },
+                        data: [{
+                            type: "bar",
+                            name: "companies",
+                            axisYType: "secondary",
+                            color: "#014D65",
+                            dataPoints: JSON.parse(data)
+                        }]
+                    });
+                    barChart.render();
+                }
+            });
+        });
+    </script>
+}
+

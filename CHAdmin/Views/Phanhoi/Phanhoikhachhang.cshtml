@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Phanhoikhachhang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string email = ViewData["email"] as string;
+    string thongbao = ViewData["thongbao"] as string;
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12" id="form_container">
+                @if (thongbao != null && thongbao.Equals("ok"))
+                {
+                    <div class="alert alert-success">Gửi email thành công</div>
+                }
+                else if (thongbao != null && thongbao.Equals("error"))
+                {
+                    <div class="alert alert-danger">Có lỗi trong quá trình gửi mail, vui lòng kiểm tra lại</div>
+                }
+                <h2>Phản hồi khách hàng</h2>
+                <form role="form" action="/Phanhoi/Phanhoikhachhang" method="post">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name">Tiêu đề:</label>
+                            <input type="text" class="form-control" id="name" name="tieude" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="email">Email gửi đến:</label>
+                            <input type="email" class="form-control" id="email" name="email" value="@email" readonly>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="message">Nội dung:</label>
+                            <textarea class="form-control" type="textarea" name="noidung" id="message" maxlength="6000" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" class="btn btn-lg btn-default pull-right">Send →</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

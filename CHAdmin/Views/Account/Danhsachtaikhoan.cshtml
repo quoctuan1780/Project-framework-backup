@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "Danhsachtaikhoan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    IQueryable<Model.EF.user> dstk = ViewData["danhsachtk"] as IQueryable<Model.EF.user>;
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Danh sách tài khoản</h1>
+                @*@if (Session('thanhcong'))
+                    <div class="alert alert-success">{{ Session('thanhcong') }}</div>
+                @endif
+                @if (Session('loi'))
+                    <div class="alert alert-danger">{{ Session('loi') }}</div>
+                @endif
+                @if (Session('thongbao'))
+                    <div class="alert alert-danger">{{ Session('thongbao') }}</div>
+                @endif*@
+            </div>
+            <!-- /.col-lg-12 -->
+            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                <thead>
+                    <tr align="center">
+                        <th>ID</th>
+                        <th>Tên tài khoản</th>
+                        <th>Quyền</th>
+                        <th>Email</th>
+                        <th>Trạng thái</th>
+                        @*{{-- <th>Xóa</th> --}}*@
+                        <th>Sửa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var tk in dstk) {
+                    <tr class="odd gradeX" style="text-align: center">
+                        <td>@tk.id</td>
+                        <td>@tk.tentk</td>
+                        @if (tk.maquyen == 1)
+                        {
+                            <td>Quản trị viên</td>
+                        }
+                        else if (tk.maquyen == 2)
+                        {
+                            <td>Khách hàng</td>
+                        }
+                        else
+                        {
+                            <td>Thành viên</td>
+                        }
+                        <td>@tk.email</td>
+                        @if (tk.ttdn == 0) {
+                            <td class="alert alert-danger">Không hoạt động</td>
+                        }
+                        else { 
+                            <td class="alert alert-success">Đang hoạt động</td>
+                        }
+                        @*{{-- <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="{{ route('xoa-tai-khoan', $tk->id) }}" onclick="return ConfirmDelete()"> Xóa</a></td> --}}*@
+                        <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="#" onclick="Suataikhoan('@tk.email', @tk.maquyen)"> Sửa</a></td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</div>
+
+@section Scripts{
+    <script>
+        function Suataikhoan(email, maquyen)
+        {
+            if (maquyen === 2) {
+                Swal.fire(
+                    'Thông báo',
+                    'Đây là tài khoản khách hàng, hãy để khách hàng tự cập nhật',
+                    'warning'
+                );
+            } else window.location = "https://localhost:44392/Account/Suataikhoan?email=" + email;
+        }
+    </script>
+}
